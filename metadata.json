@@ -1,0 +1,6 @@
+{
+  "name": "Sher Gul Property Management",
+  "description": "High-converting residential lettings and property management website for Sher Gul Ltd, built for maximum landlord lead generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
