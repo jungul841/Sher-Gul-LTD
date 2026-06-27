@@ -50,7 +50,7 @@ export function Home() {
                   <span>Get Free Rental Valuation</span>
                   <ArrowRight className="w-5 h-5" />
                 </Link>
-                <Link text-white to="/contact" className="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-semibold px-8 py-4 rounded-md text-center transition-all flex items-center justify-center space-x-2">
+                <Link to="/contact" className="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-semibold px-8 py-4 rounded-md text-center transition-all flex items-center justify-center space-x-2">
                   <span>Speak To A Manager</span>
                 </Link>
               </div>
@@ -193,10 +193,10 @@ export function Home() {
 
       {/* SECTION 5: PAIN POINTS (PAS Framework) */}
       <section className="py-24 bg-primary text-white overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-8">Stop Treating Your Investment Like A Second Job.</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Stop Treating Your Investment Like A Second Job.</h2>
               
               <div className="space-y-6">
                 {[
@@ -218,26 +218,6 @@ export function Home() {
                     <p className="text-slate-300 leading-relaxed">{item.text}</p>
                   </div>
                 ))}
-              </div>
-            </div>
-            <div className="relative">
-              <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-white/5 border border-white/10 relative">
-                  <div className="absolute inset-0 flex items-center justify-center text-white/20 p-8 text-center border-2 border-dashed border-white/20 m-4 rounded-xl">
-                      [ High-Quality Photograph of a modern UK property exterior or interior to be placed here ]
-                  </div>
-                  {/* Decorative Elements */}
-                  <div className="absolute bottom-8 right-8 left-8 bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl">
-                      <div className="flex items-center space-x-4 mb-4">
-                        <div className="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center">
-                           <CheckCircle2 className="w-6 h-6 text-green-400" />
-                        </div>
-                        <div>
-                          <p className="text-white font-medium">Issue Resolved</p>
-                          <p className="text-slate-300 text-sm">Boiler repair completed. Tenant notified.</p>
-                        </div>
-                      </div>
-                      <p className="text-xs text-slate-400 uppercase tracking-widest font-semibold">NO ACTION REQUIRED FROM LANDLORD</p>
-                  </div>
               </div>
             </div>
           </div>

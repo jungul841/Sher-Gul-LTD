@@ -47,7 +47,6 @@ export function Contact() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Email</h3>
                   <p className="text-gray-600">info@shergul.com</p>
-                  <p className="text-gray-600">maintenance@shergul.com</p>
                 </div>
               </div>
 
